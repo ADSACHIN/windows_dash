@@ -1,0 +1,11 @@
+{
+  "version": 3,
+  "build": {
+    "command": "npm run build",
+    "publish": "dist"
+  },
+  "routes": [
+    { "handle": "filesystem" },
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
+}

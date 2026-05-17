@@ -47,6 +47,15 @@ git remote add origin <your-git-remote-url>
 git push -u origin main
 ```
 
+## Vercel deployment
+
+This project can be deployed to Vercel using the default Vite settings.
+
+- Build command: `npm run build`
+- Output directory: `dist`
+
+If you connect this repository in Vercel, the platform will pick up `package.json` and use the build settings automatically.
+
 ## Notes
 
 - This README was customized for the `windows` React project.
