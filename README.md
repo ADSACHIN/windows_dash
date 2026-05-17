@@ -1,16 +1,53 @@
-# React + Vite
+# Windows React Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React application built with Vite located in the `windows` folder. This repo contains a small interactive UI with step-by-step Windows content and Vite-powered hot module replacement.
 
-Currently, two official plugins are available:
+## Project structure
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- `src/` - React components and application source files
+- `public/` - static assets served by Vite
+- `index.html` - main HTML entry point
+- `package.json` - project dependencies and scripts
+- `vite.config.js` - Vite configuration file
 
-## React Compiler
+## Setup
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Install dependencies:
 
-## Expanding the ESLint configuration
+```bash
+npm install
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open the URL shown in the terminal, usually `http://localhost:5173`.
+
+## Build for production
+
+```bash
+npm run build
+```
+
+Preview the production build locally:
+
+```bash
+npm run preview
+```
+
+## Git deployment
+
+This project is already initialized as a git repository with an initial commit. To push it to your remote repository:
+
+```bash
+git remote add origin <your-git-remote-url>
+git push -u origin main
+```
+
+## Notes
+
+- This README was customized for the `windows` React project.
+- Update this file with any project-specific details or deployment instructions as needed.
