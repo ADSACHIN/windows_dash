@@ -1,0 +1,22 @@
+/* Reset all Vite default App styles */
+.App,
+#center,
+#spacer {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Make every step component fill full width */
+main > * {
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+}
+
+/* Ensure SVGs and containers inside steps scale */
+main svg {
+  width: 100% !important;
+  height: auto !important;
+}
